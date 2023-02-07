@@ -1,0 +1,158 @@
+/* global class */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0 ;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+/* Layout */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-1{
+    width:8.33% ;
+    float: left;
+}
+.col-2{
+    width: 16.66% ;
+    float: left;
+}
+.col-3{
+    width:25% ;
+    float:left;
+}
+.col-4{
+    width:33.33% ;
+    float: left;
+}
+.col-5{
+    width:41.66% ;
+    float: left;
+}
+.col-6{
+    width:50% ;
+    float: left;
+}
+.col-7{
+    width:58.33% ;
+    float: left;
+}
+.col-8{
+    width:66.66% ;
+    float: left;
+}
+.col-9{
+    width:75% ;
+    float: left;
+}
+.col-10{
+    width:83.33% ;
+    float: left;
+}
+.col-11{
+    width:91.66% ;
+    float: left;
+}
+.col-12{
+    width:100% ;
+    float: left;
+}
+header{
+background:url(../img/New/v-hero-bg.png)no-repeat center;
+background-size: cover;
+text-align: center;
+color: white;
+margin-bottom: -300px;
+}
+
+
+#info{
+text-align:center;
+padding: 200px 0px 150px;
+background: url(../img/New/v2-hero-bg.png)no-repeat;
+background-size:cover;
+/* background-color: aqua; */
+}
+.info-box-part{
+
+}
+.info-box{
+padding: 50px;
+box-shadow: 0px 0px 10px;
+background: white;
+border-radius: 10px;
+}
+.one{
+position: relative;
+bottom: 50px;
+right: 20px;
+}
+.two{
+position: relative;
+left: 30px;
+}
+.three{
+position: relative;
+bottom: 20px;
+}
+.four{
+position: relative;
+top: 50px;
+left: 35px;
+}
+.menu-part ul {
+text-align: right;
+padding: 13px 0px;
+}
+.menu-part li{
+list-style: none;
+display: inline-block;
+margin: 0px 7px;
+padding: 7px;
+}
+.menu-part li a{
+font-size: 17px;
+font-weight: 400;
+line-height: 20px;
+color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
+}
+.hero-part{
+text-align: center;
+padding: 100px 200px;
+bottom: 200px;
+}
+.hero-part h1{
+font-size: 50px;
+line-height: 50px;
+color: #ffffff;
+top: 100px;
+}
+.hero-part button{
+background-color: 24b8ef;
+color: 24b8ef;
+padding: 15px 20px;
+font-size: 15px;
+font-weight: 500;
+text-transform: uppercase;
+width: 200px;
+margin-left: 30px;
+}
+.writinng-part{
+top: 100px;
+padding: 300px;
+font-size: small;
+text-align: left;
+}
+.about-writing-part img{
+text-align: right;
+padding-top: 50px;
+}
